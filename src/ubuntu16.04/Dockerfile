@@ -6,6 +6,7 @@ RUN sed -r -i -e "s/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g" /etc/apt/
 && apt-get -y update            \
 && apt-get -y upgrade           \
 && apt-get -y install wget      \
+git                             \
 gcc                             \
 g++                             \
 automake                        \
