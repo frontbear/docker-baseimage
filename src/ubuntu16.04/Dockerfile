@@ -14,6 +14,7 @@ autoconf                        \
 libtool                         \
 make                            \
 cmake                           \
+re2c                            \
 libedit-dev                     \
 libeditline-dev                 \
 libldb-dev                      \
