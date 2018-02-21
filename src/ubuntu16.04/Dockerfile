@@ -16,6 +16,7 @@ libtool                         \
 make                            \
 cmake                           \
 re2c                            \
+libbison-dev                    \
 libedit-dev                     \
 libeditline-dev                 \
 libldb-dev                      \
