@@ -2,7 +2,8 @@ FROM phusion/baseimage:0.10.0
 
 MAINTAINER frontbear <frontbear@outlook.com>
 
-RUN sed -r -i -e "s/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g" /etc/apt/sources.list \
+RUN export DEBIAN_FRONTEND=noninteractive \
+&& sed -r -i -e "s/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g" /etc/apt/sources.list \
 && apt-get update -y            \
 && apt-get upgrade -y           \
 && apt-get install -y --no-install-recommends wget \
