@@ -50,7 +50,6 @@ libreadline-dev                 \
 librecode-dev                   \
 libxslt1-dev                    \
 libicu-dev                      \
-zip                             \
 libzip-dev                      \
 libgeoip-dev                    \
 libatomic-ops-dev               \
@@ -63,7 +62,6 @@ libaspell-dev                   \
 libpspell-dev                   \
 libtidy-dev                     \
 libpq-dev                       \
-p7zip                           \
 liblz4-dev                      \
 && apt-get clean                                                            \
 && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*                            \
